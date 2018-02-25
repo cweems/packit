@@ -1,0 +1,21 @@
+development:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: packit_development
+
+test:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: packit_test
+  pool:     5
+  template: template0
+
+production:
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
+  database: packit_production
+  pool:     5
+  template: template0
